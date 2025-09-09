@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar"
 import About from "../Assets/about.jpg"
 import LandingPage from "../Assets/Landing.png";
 import Profile from "../Assets/profile.jpg.jpg"
+import Image from "../Assets/20250301_180502_resized[1].jpg"
 import {FaHtml5, FaCss3Alt, FaReact, FaPython, FaGithub, FaExternalLinkAlt, FaEnvelope, FaWhatsapp, FaPhoneAlt} from "react-icons/fa";
 import {SiJavascript, SiDjango} from "react-icons/si";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
@@ -38,7 +39,7 @@ function Main(){
                 </div>
             </div>
             <div className="hero-image">
-                <img src={Profile} alt="profile image" style={{width:300, height:300}}/>
+                <img src={Image} alt="profile image" style={{width:300, height:300}}/>
             </div>
         </div>
 
