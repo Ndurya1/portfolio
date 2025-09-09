@@ -4,6 +4,7 @@ import About from "../Assets/about.jpg"
 import LandingPage from "../Assets/Landing.png";
 import Profile from "../Assets/profile.jpg.jpg"
 import Image from "../Assets/20250301_180502_resized[1].jpg"
+import Makazi from "../Assets/-5vrbf3[1].jpg"
 import {FaHtml5, FaCss3Alt, FaReact, FaPython, FaGithub, FaExternalLinkAlt, FaEnvelope, FaWhatsapp, FaPhoneAlt} from "react-icons/fa";
 import {SiJavascript, SiDjango} from "react-icons/si";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
@@ -76,7 +77,7 @@ I'm currently working on amazing objects and remain open to new opportunities fo
           <h1 style={{color:"lightgreen"}}>Each project is a unique piece of development</h1>  
           <div className="project-wrapper">
             <div className="project-image">
-                <img src={About} style={{height:200, width:400}}/>
+                <img src={Makazi} style={{height:200, width:400}}/>
             </div>
 
             <div className="project-text">
