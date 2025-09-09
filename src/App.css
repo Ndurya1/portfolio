@@ -78,6 +78,9 @@ dashboard-container {
 
 /* RESPONSIVE STYLES */
 @media (max-width: 768px) {
+  img{
+    width:250px;
+  }
   .nav-links {
     position: absolute;
     top: 60px;
@@ -91,7 +94,7 @@ dashboard-container {
     max-height: 0; /* closed by default */
     transition: max-height 0.3s ease; /* smooth slide */
   }
-
+]
   .nav-links a {
     padding: 15px 0;
     width: 100%;
@@ -245,6 +248,7 @@ border-radius: 50%;
   gap: 1.7em;
 }
 .project-wrapper{
+  max-width:100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
