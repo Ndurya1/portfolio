@@ -15,6 +15,9 @@ function Navbar(){
                 <li> <a href="#work">Work</a></li>
                 <li> <a href="#contacts">Contact</a></li>
             </ul>
+            <div className="cv">
+            <a href=" /Public/MY_CV[1].docx" download="Ndurya-cv">Download CV</a>
+            </div>
                  <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
             &#9776;
             </div>
